@@ -16,5 +16,26 @@ import { Faq } from "@/components/sections/Faq";
 import { BookingManager } from "@/components/BookingManager";
 
 export default function Home() {
-  return <><ScrollAnimations /><BookingManager /><Header /><main id="main-content"><Hero /><Story /><Stay /><Rooms /><Offers /><Amenities /><Experiences /><Dining /><Reviews /><Location /><Faq /><Contact /></main><Footer /></>;
+  return (
+    <>
+      <ScrollAnimations />
+      <BookingManager />
+      <Header />
+      <main id="main-content">
+        <Hero />
+        <Story />
+        <Stay />
+        <Rooms />
+        <Offers />
+        <Amenities />
+        <Experiences />
+        <Dining />
+        <Reviews />
+        <Location />
+        <Faq />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  );
 }

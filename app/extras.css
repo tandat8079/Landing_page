@@ -1,3 +1,580 @@
-.skip-link{position:fixed;z-index:1000;left:16px;top:16px;padding:12px 18px;background:#fff;color:var(--ink);transform:translateY(-150%)}.skip-link:focus{transform:none}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #d7a06c;outline-offset:4px}.solid-link{display:inline-flex;align-items:center;justify-content:space-between;gap:40px;background:var(--rust);color:#fff;padding:20px 25px;text-transform:uppercase;letter-spacing:.16em;font-size:9px}.booking__message--error{background:#7e332c;color:#fff}.rooms{padding:150px 8vw;background:var(--cream)}.rooms__head{display:flex;align-items:flex-start;justify-content:space-between}.rooms__head h2{width:62%}.rooms__viewer{display:grid;grid-template-columns:58% 42%;min-height:650px;margin-top:90px;background:#e5ded1}.rooms__photo{position:relative;min-height:650px}.rooms__photo img{object-fit:cover}.rooms__detail{padding:70px 5vw;display:flex;flex-direction:column;align-items:flex-start}.rooms__count{font:12px var(--serif);color:#7d867f}.rooms__detail h3{font:42px/1.05 var(--serif);font-weight:400;margin:50px 0 12px}.rooms__meta{font-size:10px;letter-spacing:.17em;text-transform:uppercase}.rooms__detail ul{list-style:none;padding:25px 0;margin:35px 0;border-top:1px solid #c9bead;border-bottom:1px solid #c9bead;width:100%}.rooms__detail li{font:14px/2 var(--serif)}.rooms__detail li:before{content:"—";margin-right:12px;color:var(--rust)}.rooms__price{font-size:10px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:35px}.rooms__price strong{font:25px var(--serif);font-weight:400;display:block;margin-top:8px}.rooms__tabs{display:grid;grid-template-columns:repeat(3,1fr)}.rooms__tabs button{min-height:88px;border:0;border-right:1px solid #c8beae;border-bottom:1px solid #c8beae;background:transparent;text-align:left;padding:20px;font:17px var(--serif);cursor:pointer}.rooms__tabs button span{display:block;font:8px var(--sans);margin-bottom:9px}.rooms__tabs button[aria-selected="true"]{background:var(--forest);color:#fff}.offers{background:var(--forest);color:#fff;padding:150px 8vw}.offers__head{display:grid;grid-template-columns:.7fr 1.3fr .8fr;gap:4vw}.offers__head>p{font:13px/1.8 var(--sans);color:#bdc9c4}.offer-grid{display:grid;grid-template-columns:repeat(3,1fr);margin-top:90px;border-top:1px solid rgba(255,255,255,.2)}.offer-card{padding:45px 3vw;border-right:1px solid rgba(255,255,255,.2);display:flex;min-height:540px;flex-direction:column}.offer-card__tag{align-self:flex-start;color:#eed6b3!important;border:1px solid rgba(255,255,255,.35);padding:8px 10px}.offer-card small{margin:45px 0 20px;opacity:.55}.offer-card h3{font:35px/1.1 var(--serif);font-weight:400}.offer-card>p{font-size:10px;letter-spacing:.14em;text-transform:uppercase;margin-top:13px;color:#b8c5c0}.offer-card ul{padding:25px 0 25px 18px;font:13px/2 var(--sans);color:#cbd3cf}.offer-card>strong{font:20px var(--serif);font-weight:400;margin-top:auto}.offer-card>a{margin-top:25px;border-top:1px solid rgba(255,255,255,.25);padding-top:20px;text-transform:uppercase;letter-spacing:.16em;font-size:9px;display:flex;justify-content:space-between}.amenities{display:grid;grid-template-columns:48% 52%;background:#e8e1d4}.amenities__image{position:relative;min-height:900px}.amenities__image img{object-fit:cover}.amenities__content{padding:120px 6vw}.amenities__content h2{font-size:clamp(48px,5vw,78px);margin:40px 0 70px}.amenity-list article{display:grid;grid-template-columns:50px 1fr;padding:22px 0;border-top:1px solid #c7bdad}.amenity-list article small{color:#8a918d}.amenity-list h3{font:22px var(--serif);font-weight:400}.amenity-list p{font:12px/1.7 var(--sans);color:#69756e;margin-top:5px}.reviews{display:grid;grid-template-columns:.7fr 1.3fr;padding:140px 8vw;background:#d9cdb9}.reviews__score{border-right:1px solid #baae9b;display:flex;flex-direction:column;justify-content:center}.reviews__score strong{font:110px/.9 var(--serif);font-weight:400}.reviews__score span{letter-spacing:.25em;color:var(--rust);margin:20px 0}.reviews__score p{font-size:10px;text-transform:uppercase;letter-spacing:.14em}.reviews__quote{padding-left:8vw}.reviews__quote blockquote{font:italic clamp(30px,3.2vw,52px)/1.35 var(--serif);margin:45px 0}.reviews__quote>p strong,.reviews__quote>p span{display:block}.reviews__quote>p strong{font:15px var(--serif)}.reviews__quote>p span{font-size:9px;letter-spacing:.12em;margin-top:5px}.reviews__controls{display:flex;gap:8px;margin:35px 0}.reviews__controls button{width:44px;height:44px;border:1px solid #9e927f;background:transparent;border-radius:50%;cursor:pointer}.reviews__controls button[aria-pressed="true"]{background:var(--ink);color:#fff}.reviews__quote>small{display:block;color:#555e59;font-size:10px}.location{display:grid;grid-template-columns:55% 45%;min-height:760px;background:#f1ece2}.location__map{position:relative;overflow:hidden;background-color:#d2d8ce;background-image:linear-gradient(38deg,transparent 48%,rgba(25,53,45,.13) 49%,rgba(25,53,45,.13) 51%,transparent 52%),linear-gradient(-30deg,transparent 48%,rgba(25,53,45,.1) 49%,rgba(25,53,45,.1) 51%,transparent 52%);background-size:130px 100px;display:grid;place-items:center}.location__map>p{position:absolute;bottom:38px;font-size:9px;letter-spacing:.2em}.map-pin{position:relative;z-index:2;display:grid;place-items:center;width:90px;height:90px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--rust);color:#fff;font:italic 30px var(--serif)}.map-pin small{position:absolute;top:105px;color:var(--ink);font:7px var(--sans);letter-spacing:.2em;transform:rotate(45deg);white-space:nowrap}.map-ring{position:absolute;border:1px solid rgba(25,53,45,.2);border-radius:50%}.map-ring--one{width:300px;height:300px}.map-ring--two{width:520px;height:520px}.location__copy{padding:110px 6vw}.location__copy h2{font-size:clamp(48px,5vw,80px);margin:40px 0 30px}.location__copy>p{font:14px/1.8 var(--sans);color:#65716a}.location__copy dl{margin:40px 0;border-top:1px solid #c5bcad}.location__copy dl div{display:flex;justify-content:space-between;padding:18px 0;border-bottom:1px solid #c5bcad}.location__copy dt{font-size:10px;letter-spacing:.13em;text-transform:uppercase}.location__copy dd{font:16px var(--serif)}.location__address{margin-bottom:35px!important}.faq{display:grid;grid-template-columns:.75fr 1.25fr;gap:8vw;padding:140px 8vw}.faq__head h2{margin-top:40px}.faq__list article{border-top:1px solid #c6bcac}.faq__list button{display:grid;grid-template-columns:45px 1fr 30px;align-items:center;width:100%;min-height:88px;border:0;background:transparent;text-align:left;color:var(--ink);font:20px var(--serif);cursor:pointer}.faq__list button span{font:9px var(--sans);color:#8b938e}.faq__list button i{font:24px var(--serif);font-style:normal}.faq__answer{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s}.faq__answer p{overflow:hidden;font:13px/1.8 var(--sans);color:#65716a;padding-left:45px;max-width:600px}.faq__answer--open{grid-template-rows:1fr;padding-bottom:28px}
-@media(max-width:900px){.rooms,.offers{padding:100px 6vw}.rooms__head,.offers__head{display:block}.rooms__head h2{width:100%;margin-top:35px}.rooms__viewer{display:block;margin-top:60px}.rooms__photo{min-height:500px}.rooms__detail{padding:55px 7vw}.rooms__tabs{overflow-x:auto;grid-template-columns:repeat(3,minmax(230px,1fr))}.offer-grid{grid-template-columns:1fr}.offer-card{min-height:auto;padding:45px 5vw;border-right:0;border-bottom:1px solid rgba(255,255,255,.2)}.offer-card>strong{margin-top:25px}.offers__head>p{margin-top:25px;max-width:520px}.amenities{display:block}.amenities__image{min-height:600px}.amenities__content{padding:90px 7vw}.reviews{grid-template-columns:1fr;padding:100px 7vw}.reviews__score{border-right:0;border-bottom:1px solid #baae9b;padding-bottom:55px}.reviews__score strong{font-size:80px}.reviews__quote{padding:60px 0 0}.location{display:flex;flex-direction:column-reverse}.location__map{min-height:520px}.location__copy{padding:90px 7vw}.faq{display:block;padding:100px 7vw}.faq__list{margin-top:60px}}
-@media(max-width:540px){.rooms__photo{min-height:380px}.rooms__detail h3{font-size:36px}.offer-card h3{font-size:32px}.amenities__image{min-height:480px}.amenities__content h2{font-size:13vw}.amenity-list article{grid-template-columns:38px 1fr}.reviews__quote blockquote{font-size:30px}.location__map{min-height:400px}.map-ring--two{width:380px;height:380px}.faq__list button{font-size:17px;grid-template-columns:35px 1fr 25px}.faq__answer p{padding-left:35px;font-size:15px}}
+.skip-link {
+  position: fixed;
+  z-index: 1000;
+  left: 16px;
+  top: 16px;
+  padding: 12px 18px;
+  background: #fff;
+  color: var(--ink);
+  transform: translateY(-150%);
+}
+.skip-link:focus {
+  transform: none;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #d7a06c;
+  outline-offset: 4px;
+}
+.solid-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  background: var(--rust);
+  color: #fff;
+  padding: 20px 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 9px;
+}
+.booking__message--error {
+  background: #7e332c;
+  color: #fff;
+}
+.rooms {
+  padding: 150px 8vw;
+  background: var(--cream);
+}
+.rooms__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.rooms__head h2 {
+  width: 62%;
+}
+.rooms__viewer {
+  display: grid;
+  grid-template-columns: 58% 42%;
+  min-height: 650px;
+  margin-top: 90px;
+  background: #e5ded1;
+}
+.rooms__photo {
+  position: relative;
+  min-height: 650px;
+}
+.rooms__photo img {
+  object-fit: cover;
+}
+.rooms__detail {
+  padding: 70px 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rooms__count {
+  font: 12px var(--serif);
+  color: #7d867f;
+}
+.rooms__detail h3 {
+  font: 42px/1.05 var(--serif);
+  font-weight: 400;
+  margin: 50px 0 12px;
+}
+.rooms__meta {
+  font-size: 10px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+.rooms__detail ul {
+  list-style: none;
+  padding: 25px 0;
+  margin: 35px 0;
+  border-top: 1px solid #c9bead;
+  border-bottom: 1px solid #c9bead;
+  width: 100%;
+}
+.rooms__detail li {
+  font: 14px/2 var(--serif);
+}
+.rooms__detail li:before {
+  content: "—";
+  margin-right: 12px;
+  color: var(--rust);
+}
+.rooms__price {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 35px;
+}
+.rooms__price strong {
+  font: 25px var(--serif);
+  font-weight: 400;
+  display: block;
+  margin-top: 8px;
+}
+.rooms__tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.rooms__tabs button {
+  min-height: 88px;
+  border: 0;
+  border-right: 1px solid #c8beae;
+  border-bottom: 1px solid #c8beae;
+  background: transparent;
+  text-align: left;
+  padding: 20px;
+  font: 17px var(--serif);
+  cursor: pointer;
+}
+.rooms__tabs button span {
+  display: block;
+  font: 8px var(--sans);
+  margin-bottom: 9px;
+}
+.rooms__tabs button[aria-selected="true"] {
+  background: var(--forest);
+  color: #fff;
+}
+.offers {
+  background: var(--forest);
+  color: #fff;
+  padding: 150px 8vw;
+}
+.offers__head {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr 0.8fr;
+  gap: 4vw;
+}
+.offers__head > p {
+  font: 13px/1.8 var(--sans);
+  color: #bdc9c4;
+}
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 90px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.offer-card {
+  padding: 45px 3vw;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  min-height: 540px;
+  flex-direction: column;
+}
+.offer-card__tag {
+  align-self: flex-start;
+  color: #eed6b3 !important;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 8px 10px;
+}
+.offer-card small {
+  margin: 45px 0 20px;
+  opacity: 0.55;
+}
+.offer-card h3 {
+  font: 35px/1.1 var(--serif);
+  font-weight: 400;
+}
+.offer-card > p {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-top: 13px;
+  color: #b8c5c0;
+}
+.offer-card ul {
+  padding: 25px 0 25px 18px;
+  font: 13px/2 var(--sans);
+  color: #cbd3cf;
+}
+.offer-card > strong {
+  font: 20px var(--serif);
+  font-weight: 400;
+  margin-top: auto;
+}
+.offer-card > a {
+  margin-top: 25px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 9px;
+  display: flex;
+  justify-content: space-between;
+}
+.amenities {
+  display: grid;
+  grid-template-columns: 48% 52%;
+  background: #e8e1d4;
+}
+.amenities__image {
+  position: relative;
+  min-height: 900px;
+}
+.amenities__image img {
+  object-fit: cover;
+}
+.amenities__content {
+  padding: 120px 6vw;
+}
+.amenities__content h2 {
+  font-size: clamp(48px, 5vw, 78px);
+  margin: 40px 0 70px;
+}
+.amenity-list article {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  padding: 22px 0;
+  border-top: 1px solid #c7bdad;
+}
+.amenity-list article small {
+  color: #8a918d;
+}
+.amenity-list h3 {
+  font: 22px var(--serif);
+  font-weight: 400;
+}
+.amenity-list p {
+  font: 12px/1.7 var(--sans);
+  color: #69756e;
+  margin-top: 5px;
+}
+.reviews {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  padding: 140px 8vw;
+  background: #d9cdb9;
+}
+.reviews__score {
+  border-right: 1px solid #baae9b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.reviews__score strong {
+  font: 110px/0.9 var(--serif);
+  font-weight: 400;
+}
+.reviews__score span {
+  letter-spacing: 0.25em;
+  color: var(--rust);
+  margin: 20px 0;
+}
+.reviews__score p {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+.reviews__quote {
+  padding-left: 8vw;
+}
+.reviews__quote blockquote {
+  font: italic clamp(30px, 3.2vw, 52px) / 1.35 var(--serif);
+  margin: 45px 0;
+}
+.reviews__quote > p strong,
+.reviews__quote > p span {
+  display: block;
+}
+.reviews__quote > p strong {
+  font: 15px var(--serif);
+}
+.reviews__quote > p span {
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  margin-top: 5px;
+}
+.reviews__controls {
+  display: flex;
+  gap: 8px;
+  margin: 35px 0;
+}
+.reviews__controls button {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #9e927f;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.reviews__controls button[aria-pressed="true"] {
+  background: var(--ink);
+  color: #fff;
+}
+.reviews__quote > small {
+  display: block;
+  color: #555e59;
+  font-size: 10px;
+}
+.location {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  min-height: 760px;
+  background: #f1ece2;
+}
+.location__map {
+  position: relative;
+  overflow: hidden;
+  background-color: #d2d8ce;
+  background-image:
+    linear-gradient(
+      38deg,
+      transparent 48%,
+      rgba(25, 53, 45, 0.13) 49%,
+      rgba(25, 53, 45, 0.13) 51%,
+      transparent 52%
+    ),
+    linear-gradient(
+      -30deg,
+      transparent 48%,
+      rgba(25, 53, 45, 0.1) 49%,
+      rgba(25, 53, 45, 0.1) 51%,
+      transparent 52%
+    );
+  background-size: 130px 100px;
+  display: grid;
+  place-items: center;
+}
+.location__map > p {
+  position: absolute;
+  bottom: 38px;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+}
+.map-pin {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  background: var(--rust);
+  color: #fff;
+  font: italic 30px var(--serif);
+}
+.map-pin small {
+  position: absolute;
+  top: 105px;
+  color: var(--ink);
+  font: 7px var(--sans);
+  letter-spacing: 0.2em;
+  transform: rotate(45deg);
+  white-space: nowrap;
+}
+.map-ring {
+  position: absolute;
+  border: 1px solid rgba(25, 53, 45, 0.2);
+  border-radius: 50%;
+}
+.map-ring--one {
+  width: 300px;
+  height: 300px;
+}
+.map-ring--two {
+  width: 520px;
+  height: 520px;
+}
+.location__copy {
+  padding: 110px 6vw;
+}
+.location__copy h2 {
+  font-size: clamp(48px, 5vw, 80px);
+  margin: 40px 0 30px;
+}
+.location__copy > p {
+  font: 14px/1.8 var(--sans);
+  color: #65716a;
+}
+.location__copy dl {
+  margin: 40px 0;
+  border-top: 1px solid #c5bcad;
+}
+.location__copy dl div {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 0;
+  border-bottom: 1px solid #c5bcad;
+}
+.location__copy dt {
+  font-size: 10px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+.location__copy dd {
+  font: 16px var(--serif);
+}
+.location__address {
+  margin-bottom: 35px !important;
+}
+.faq {
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  gap: 8vw;
+  padding: 140px 8vw;
+}
+.faq__head h2 {
+  margin-top: 40px;
+}
+.faq__list article {
+  border-top: 1px solid #c6bcac;
+}
+.faq__list button {
+  display: grid;
+  grid-template-columns: 45px 1fr 30px;
+  align-items: center;
+  width: 100%;
+  min-height: 88px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  color: var(--ink);
+  font: 20px var(--serif);
+  cursor: pointer;
+}
+.faq__list button span {
+  font: 9px var(--sans);
+  color: #8b938e;
+}
+.faq__list button i {
+  font: 24px var(--serif);
+  font-style: normal;
+}
+.faq__answer {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s;
+}
+.faq__answer p {
+  overflow: hidden;
+  font: 13px/1.8 var(--sans);
+  color: #65716a;
+  padding-left: 45px;
+  max-width: 600px;
+}
+.faq__answer--open {
+  grid-template-rows: 1fr;
+  padding-bottom: 28px;
+}
+@media (max-width: 900px) {
+  .rooms,
+  .offers {
+    padding: 100px 6vw;
+  }
+  .rooms__head,
+  .offers__head {
+    display: block;
+  }
+  .rooms__head h2 {
+    width: 100%;
+    margin-top: 35px;
+  }
+  .rooms__viewer {
+    display: block;
+    margin-top: 60px;
+  }
+  .rooms__photo {
+    min-height: 500px;
+  }
+  .rooms__detail {
+    padding: 55px 7vw;
+  }
+  .rooms__tabs {
+    overflow-x: auto;
+    grid-template-columns: repeat(3, minmax(230px, 1fr));
+  }
+  .offer-grid {
+    grid-template-columns: 1fr;
+  }
+  .offer-card {
+    min-height: auto;
+    padding: 45px 5vw;
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .offer-card > strong {
+    margin-top: 25px;
+  }
+  .offers__head > p {
+    margin-top: 25px;
+    max-width: 520px;
+  }
+  .amenities {
+    display: block;
+  }
+  .amenities__image {
+    min-height: 600px;
+  }
+  .amenities__content {
+    padding: 90px 7vw;
+  }
+  .reviews {
+    grid-template-columns: 1fr;
+    padding: 100px 7vw;
+  }
+  .reviews__score {
+    border-right: 0;
+    border-bottom: 1px solid #baae9b;
+    padding-bottom: 55px;
+  }
+  .reviews__score strong {
+    font-size: 80px;
+  }
+  .reviews__quote {
+    padding: 60px 0 0;
+  }
+  .location {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .location__map {
+    min-height: 520px;
+  }
+  .location__copy {
+    padding: 90px 7vw;
+  }
+  .faq {
+    display: block;
+    padding: 100px 7vw;
+  }
+  .faq__list {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 540px) {
+  .rooms__photo {
+    min-height: 380px;
+  }
+  .rooms__detail h3 {
+    font-size: 36px;
+  }
+  .offer-card h3 {
+    font-size: 32px;
+  }
+  .amenities__image {
+    min-height: 480px;
+  }
+  .amenities__content h2 {
+    font-size: 13vw;
+  }
+  .amenity-list article {
+    grid-template-columns: 38px 1fr;
+  }
+  .reviews__quote blockquote {
+    font-size: 30px;
+  }
+  .location__map {
+    min-height: 400px;
+  }
+  .map-ring--two {
+    width: 380px;
+    height: 380px;
+  }
+  .faq__list button {
+    font-size: 17px;
+    grid-template-columns: 35px 1fr 25px;
+  }
+  .faq__answer p {
+    padding-left: 35px;
+    font-size: 15px;
+  }
+}
